@@ -158,7 +158,7 @@ $(".btn").on("click", function(){
 $(".equal").on("click", function(){
     result=eval(expression);
     displayOnScreen(result);
-    expression="";
+    expression=result;
     console.log(result);
 });
 
